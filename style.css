@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: #e83e8c;
+    height: 80px;
+}
+
+.card-title{
+    color: #e83e8c;
+}
+.container{
+    background-color: #e83e8c;
+}
+.cad-image-top{
+    width: 350px;
+}
+.Cones{
+    color: #e83e8c;
+}
+
+
+
+#imagepro{
+    height: 100vh;
+}
+#last{
+    background-color: #e83e8c;
+    
+}
+#footer{
+    background-color:  #9e1f64;
+    height: 100px;  
+    padding-top: 10px;
+    
+}
+
+
+
+@media(min-width:0px) and (max-width:767px){
+    #curousel{
+        display: none;
+    }
+   
+}
+@media(min-width:767px) and (max-width:1200px){
+   #img-edit{
+    height: 700px;
+   }
+   .card-second{
+    display: none;
+}
+#card{
+    display: none;
+    }
+}
+
+@media(min-width:0px) and (max-width:767px){
+    #card{
+        display: block;
+        
+    }
+    #first-card{
+        display: none;
+    }
+   
+    #img-edited{
+        height: 550px;
+        width: 100%;
+    }
+    #grid{
+        display: block;
+    }
+   
+    
+}
+@media (min-width:320px) and (max-width:400px){
+    #head{
+        margin-top: 900px;
+    }
+}
+@media (min-width:400px) and (max-width:500px){
+    #head{
+        margin-top: 1050px;
+    }
+}
+@media (min-width:500px) and (max-width:600px){
+    #head{
+        margin-top: 1250px;
+    }
+}
+@media (min-width:600px) and (max-width:690px){
+    #head{
+        margin-top: 1450px;
+    }
+}
+@media (min-width:690px) and (max-width:767px){
+    #head{
+        margin-top: 1550px;
+    }
+}
+@media (min-width:767px) and (max-width:1977px){
+    #card{
+        display: none;
+    }
+}
